@@ -10,4 +10,4 @@ Oncology • single-cell • pipelines • graphs
 
 **About**
 Bioinformatician (6+ yrs). RNA-seq, scRNA-seq, WDL/Snakemake, Neo4j.
-Contact: severianovillarruel@gmail.com · [[LinkedIn](#)](https://www.linkedin.com/in/severiano-villarruel-85111217a/)
+Contact: severianovillarruel@gmail.com · [LinkedIn](https://www.linkedin.com/in/severiano-villarruel-85111217a/)
