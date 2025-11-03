@@ -1,5 +1,3 @@
-# severiano_bioinfo_portfolio.githib.io
-
 # Severiano Villarruel — Bioinformatics
 Oncology • single-cell • pipelines • graphs
 
