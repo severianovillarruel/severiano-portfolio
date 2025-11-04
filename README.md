@@ -3,7 +3,7 @@ Analytics • Infrastructure • ML Models • Visualizations
 
 **Projects**
 - Revealed cell populations driving resistance in melanoma through advanced single-cell modeling → [singlecell-architecture-surgery](https://github.com/severianovillarruel/singlecell-architecture-surgery)
-- Graph DB for Target Discovery → https://github.com/severianovillarruel/singlecell-brim-demo
+- Graph DB for identifying functional networks → [graphdb-functional-networks](https://github.com/severianovillarruel/graphdb-functional-networks)
 - cfDNA Methylation Pipeline → https://github.com/severianovillarruel/singlecell-brim-demo
 
 **About**
