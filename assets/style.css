@@ -88,10 +88,9 @@ body {
   font-weight: 500;
 }
 
-footer {
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  color: #111;
+footer a:hover {
+  text-decoration: underline;
+  color: #ff9900;
 }
 
 footer a {
