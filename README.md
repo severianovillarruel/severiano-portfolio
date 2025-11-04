@@ -2,7 +2,7 @@
 Oncology • single-cell • pipelines • graphs
 
 **Projects**
-- Single-cell BRIM Demo → https://github.com/severianovillarruel/singlecell-brim-demo
+- Single Cell Architecture Surgery in Melanoma → https://github.com/severianovillarruel/singlecell-architecture-surgery
 - Graph DB for Target Discovery → https://github.com/severianovillarruel/singlecell-brim-demo
 - cfDNA Methylation Pipeline → https://github.com/severianovillarruel/singlecell-brim-demo
 
