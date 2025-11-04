@@ -102,3 +102,40 @@ footer a {
   color: inherit;
   font-weight: 600;
 }
+
+/* layout container */
+.side-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  text-align: left;
+}
+
+/* text block */
+.hero-text {
+  max-width: 480px;
+}
+
+/* image block */
+.side-photo {
+  width: 260px;
+  height: auto;
+  border-radius: 16px;
+  border: 4px solid var(--fg);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  object-fit: cover;
+}
+
+/* make it responsive */
+@media (max-width: 750px) {
+  .side-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+  .side-photo {
+    width: 60%;
+  }
+}
