@@ -2,7 +2,7 @@
 analyses • infrastructure • ML models • visualizations
 
 **Projects**
-- Single Cell ML Architecture Surgery in Melanoma → [singlecell-architecture-surgery](https://github.com/severianovillarruel/singlecell-architecture-surgery)
+- Revealed cell populations driving resistance in melanoma through advanced single-cell modeling → [singlecell-architecture-surgery](https://github.com/severianovillarruel/singlecell-architecture-surgery)
 - Graph DB for Target Discovery → https://github.com/severianovillarruel/singlecell-brim-demo
 - cfDNA Methylation Pipeline → https://github.com/severianovillarruel/singlecell-brim-demo
 
