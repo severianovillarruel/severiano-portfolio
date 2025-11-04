@@ -87,6 +87,11 @@ body {
   margin-top: 0.5rem;
   font-weight: 500;
 }
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #111;
+}
 
 footer a:hover {
   text-decoration: underline;
