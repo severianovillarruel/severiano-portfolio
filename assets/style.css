@@ -128,13 +128,13 @@ footer a {
 
 /* Make image and text columns */
 .side-photo {
-  width: 240px;               /* narrower, better proportion */
+  width: 120px;               /* half of 240px */
   height: auto;
   border-radius: 12px;
   border: 3px solid var(--fg);
   object-fit: cover;
   box-shadow: 0 6px 14px rgba(0,0,0,0.25);
-  flex-shrink: 0;             /* prevents resizing when screen shrinks */
+  flex-shrink: 0;
 }
 
 .hero-text {
@@ -172,7 +172,7 @@ footer a {
   }
 
   .side-photo {
-    width: 60%;   /* adjusts nicely for mobile */
-    max-width: 280px;
+    width: 45%;
+    max-width: 160px;
   }
 }
