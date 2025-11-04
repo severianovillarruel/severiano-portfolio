@@ -103,32 +103,18 @@ footer a {
   font-weight: 600;
 }
 
-/* layout container */
 .side-layout {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-  padding: 3rem 1rem;
-  text-align: left;
-}
-
-/* text block */
-
-.side-layout {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: center;         /* centers text vertically to image */
+  justify-content: center;     /* centers the combined block */
   gap: 2.5rem;
   padding: 3rem 4rem;
-  text-align: left;
   flex-wrap: wrap;
+  text-align: center;          /* centers text within its own block */
 }
 
-/* Make image and text columns */
 .side-photo {
-  width: 120px;               /* half of 240px */
+  width: 120px;
   height: auto;
   border-radius: 12px;
   border: 3px solid var(--fg);
@@ -138,9 +124,8 @@ footer a {
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  max-width: 600px;
+  text-align: center;          /* ensures all text inside is centered */
 }
 
 .hero-text h1 {
@@ -160,19 +145,23 @@ footer a {
   font-weight: 500;
   line-height: 1.5;
   font-size: 1rem;
+  margin-inline: auto;
 }
 
-/* Responsive adjustment for mobile */
+/* Responsive for small screens */
 @media (max-width: 800px) {
   .side-layout {
     flex-direction: column;
     align-items: center;
-    text-align: center;
     padding: 2rem 1rem;
   }
 
   .side-photo {
     width: 45%;
     max-width: 160px;
+  }
+
+  .hero-text {
+    text-align: center;
   }
 }
