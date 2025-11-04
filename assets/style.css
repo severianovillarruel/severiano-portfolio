@@ -1,0 +1,100 @@
+:root {
+  --bg: #ffcb05;   /* yellow background */
+  --fg: #000;      /* text color */
+  --accent: #111;  /* deep black sections */
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  line-height: 1.6;
+  padding-bottom: 4rem;
+}
+
+.hero {
+  padding: 4rem 1rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  margin-top: 1rem;
+  max-width: 600px;
+  margin-inline: auto;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.banner {
+  background: var(--accent);
+  color: var(--bg);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+  word-spacing: 6px;
+  overflow-x: auto;
+}
+
+.projects {
+  margin-top: 3rem;
+  display: grid;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project {
+  max-width: 600px;
+  padding: 1.5rem;
+  background: #fff;
+  color: #111;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+.project h3 a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project p {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #111;
+}
+
+footer a {
+  color: inherit;
+  font-weight: 600;
+}
