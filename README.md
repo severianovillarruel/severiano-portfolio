@@ -1,4 +1,4 @@
-# Severiano Villarruel — Data Science and Engineer 
+# Severiano Villarruel — Data Scientist and Engineer 
 analyses • infrastructure • ML models • visualizations
 
 **Projects**
