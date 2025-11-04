@@ -1,5 +1,5 @@
 # Severiano Villarruel — Data Scientist and Engineer 
-analyses • infrastructure • ML models • visualizations
+Analytics • Infrastructure • ML Models • Visualizations
 
 **Projects**
 - Revealed cell populations driving resistance in melanoma through advanced single-cell modeling → [singlecell-architecture-surgery](https://github.com/severianovillarruel/singlecell-architecture-surgery)
